@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(200.85deg, #290040 3.26%, #AE23FF 180.03%);
+  font-family: "Eczar", serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #290040;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  margin-top: 36px;
+  height: 144px;
+  border-radius: 90px;
+  max-right: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.titulo {
+	margin-left: 16px;
+}
+
+.titulo h1 {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.titulo h3 {
+	font-family: "Roboto Serif", serif;
+	font-size: 20px;
+}
+
+.titulo h5 {
+	font-family: "Roboto Serif", serif;
+	font-size: 15px;
+  
+}
+
+.titulo p,
+a {
+	color: #D3CAE2;
+	font-family: "Roboto Serif", serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  padding: 5px 8px;
+  background: #D3CAE2;
+  border-radius: 80px;
+  color: #290040;
+  font-size: 20px;
+  
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(200.85deg, #290040 3.26%, #AE23FF 70.03%);
+  margin-top: 0 1px;
+  padding: 0 1px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos ul {
+  margin-right: 40px;
+	text-align: center;
+  text-decoration: underline; 
+  font-family: "Eczar", serif;
+	font-size: 50px;
+	font-weight: bolder;
+  color: #D3CAE2
+  
+}
+
+.projetos li {
+  margin-top: 70px;
+	text-align: center;
+	list-style: none;
+	font-family: "Roboto Serif", serif;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.titulo-do-projeto {
+  list-style: none;
+  font-weight 700;
+  font-size: 36px;
+}
+
+.itens-dos-projetos {
+  list-style-type: none;
+  font-weight 400;
+  font-size: 10px;
+  line-height: 42px;
+}
+
+.itens-dos-projetos a {
+  text-decoration: none;
+  
+}
+
+.dark {
+background: linear-gradient(200.85deg, #290040 3.26%, #AE23FF 180.03%);
+}
+
+.dark .container {
+	background-color: #333439;
+	color: #D3CAE2;
+}
+
+.dark .projetos {
+	color: #1c1c1c;
+}
+
+.dark .tema button {
+	background: linear-gradient(200.85deg, #290040 3.26%, #AE23FF 180.03%);
+	color: #D3CAE2;
+	border: 2px solid #f7f7f7;  
+}
+
+.projetos hr {
+  box-sizing:border-box;
+  align: left;
+  width: 100; 
+  margin: 0 auto 0 0;
+}
